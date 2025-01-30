@@ -12,7 +12,7 @@ import argparse
 import cryptnoxpy
 
 try:
-    import config
+    from cryptnoxpro import config
     import enums
     from command.options import options
     from command.helper import security

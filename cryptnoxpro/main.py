@@ -13,9 +13,9 @@ import lazy_import
 from appdirs import user_log_dir
 
 try:
-    from __init__ import __version__
-    import interactive_cli
-    from command import (
+    from cryptnoxpro import __version__
+    from cryptnoxpro import interactive_cli
+    from cryptnoxpro.command import (
         factory,
         options
     )
@@ -107,4 +107,5 @@ def main() -> int:
 
 
 if __name__ == "__main__":
+    sys.path.append(str(Path(__file__).resolve().parent.parent))
     sys.exit(main())

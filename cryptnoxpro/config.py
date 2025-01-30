@@ -12,7 +12,7 @@ from typing import (
 import cryptnoxpy
 
 try:
-    from command.helper import helper_methods
+    from cryptnoxpro.command.helper import helper_methods
 except ImportError:
     from .command.helper import helper_methods
 

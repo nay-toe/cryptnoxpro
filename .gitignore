@@ -13,3 +13,4 @@ _static
 _templates
 
 cryptnoxpro.egg-info
+/venv/
